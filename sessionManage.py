@@ -2,7 +2,7 @@ import requests
 
 
 BaseURL = "https://api.github.com/user/repos"
-# # resourceEndPoint = '/user/repos'
+# resourceEndPoint = '/user/repos'
 
 
 sessionManager = requests.Session()
