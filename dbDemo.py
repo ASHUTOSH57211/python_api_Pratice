@@ -4,14 +4,17 @@ import mysql.connector as sqlActions
 
 # host, databaseName, user, password
 
-conn = sqlActions.connect(host='localhost',database='PythonAutomation', user='root',password='ashutosh5721')
+conn = sqlActions.connect(host='localhost',database='APIDevelop', user='root',password='ashutosh5721')
 
 print(conn.is_connected())
 
 cursor = conn.cursor()
 cursor.execute('select * from CustomerInfo')
-row = cursor.fetchone()   #fetch one row from the table
+row = cursor.fetchone()
 print(row)
+
+
+
 
 
 
