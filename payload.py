@@ -1,8 +1,8 @@
-def addBook(isbnValue):
+def addBook(isbnValue,aisleValue):
     bookdata={
         "name":"Learn Appium Automation with Java",
         "isbn":isbnValue,
-        "aisle":"227571",
+        "aisle":aisleValue,
         "author":"Ashutosh"}
     return bookdata
 
